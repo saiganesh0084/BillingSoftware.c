@@ -53,6 +53,8 @@ void generateBillFooter(float total){
     printf("\n---------------------------------------");
     printf("\nGrand Total\t\t\t%.2f",grandTotal);
     printf("\n---------------------------------------\n");
+    printf("\nSee you next time :)\n");
+    
 }
 int main(){
     
@@ -164,7 +166,7 @@ int main(){
         break;
 
     case 4:
-    printf("\n\t\t Bye Bye :)\n\n");
+    printf("\n\t\t See you next time :)\n\n");
     exit(0);
     break;
 
@@ -175,7 +177,7 @@ int main(){
     printf("\nDo you want to perform another operation?[y/n]:\t");
     scanf("%s",&contFlag);
     }
-    printf("\n\t\t Bye Bye :)\n\n");
+    printf("\n\t\t See you next time\n\n");
     printf("\n\n");
 
     return 0;
